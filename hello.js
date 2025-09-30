@@ -12,3 +12,22 @@ function Outside(){
   y = 5;
   c = x * y;
 document.write(c);
+
+// day second 
+let a = "Name";
+  b = "Age";
+c = a+b;
+document.write(c);
+
+// with function applying
+let hari;
+let gita;
+let bita;
+function names(){
+  hari = 1;
+  gita = 2;
+  bita = 3;
+  return "demo1";
+}
+
+document.getElementById(names()).innerHTML = "Total:" + (hari + gita + bita);

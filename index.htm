@@ -53,7 +53,7 @@
 <hr>
 <h1>This is day second 1.5 hr.</h1>
 <hr>
-<p id="Function";>This is paragraph.</p>
+<p id="Function">This is paragraph.</p>
 <button type="button" onclick="Change()">Click me for p change.</button>
 
 <script>
@@ -64,7 +64,20 @@
   document.write(2+2);
   console.log(9*9);
   // window.alert("Hello");
-</script>
+
+  // This is practice for js function and variables as well
+    function Animals() {
+      let a = "Goat";
+      let b = 5;
+      let c = 6;
+      document.getElementById("Animals").innerHTML =
+        "Animal: " + a + " = " + (b + c);
+    }
+    Animals();
+  </script>
+
+  <p id="Animals"></p>
+
 <hr>
 <button onclick="window.alert('Hello world!')">This is alert button.</button>
 <p id="External">This is for external js practice.</p>
@@ -72,7 +85,7 @@
 <p id="change whole">hello world.</p>
 <button onclick="document.write('<P>Hello world</p>')">click me for erase all</button>
   <button onclick="window.print('Yo! you did it finally.')">This button is for window print.</button>
-
+<p id="demo1"></p>
 <script src="hello.js"></script>
 </body>
 </html>
