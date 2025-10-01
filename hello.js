@@ -31,3 +31,28 @@ function names(){
 }
 
 document.getElementById(names()).innerHTML = "Total:" + (hari + gita + bita);
+
+
+function Names(){
+  let nameA= "Hari";
+let nameB = "Gita";
+let nameC = "Sita";
+return "STD-Names";}
+document.getElementById(Names()).innerHTML ="Students Names:"+" "+ (nameA+" "+ nameB+ " "+ nameC);
+
+// let hari;
+// let gita;
+// let bita;
+
+// function names(){
+//   hari = 1;
+//   gita = 2;
+//   bita = 3;
+//   return "demo1";
+// }
+
+// document.getElementById(names()).innerHTML =
+//   "Total: " + (hari + gita + bita);
+
+
+
