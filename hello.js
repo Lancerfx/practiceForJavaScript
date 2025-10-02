@@ -53,6 +53,13 @@ document.getElementById(Names()).innerHTML ="Students Names:"+" "+ (nameA+" "+ n
 
 // document.getElementById(names()).innerHTML =
 //   "Total: " + (hari + gita + bita);
+function Sum(){
+let num1 = 2;
+let num2 = 4;
+let sum = num1 + num2;
+return "Number";
 
+}
+document.getElementById(Sum()).innerHTML = sum;
 
 
