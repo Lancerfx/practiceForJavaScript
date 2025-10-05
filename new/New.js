@@ -159,3 +159,44 @@ document.getElementById("Dmulti").innerHTML = "5 ** 2 = "+ Dmulti();
   document.getElementById("??=").innerHTML = " same as before except operator is ??= chaged value is  = " + dWhatEquals();
 
 
+  // This is for Day six 6th.
+
+  function Bracket(){
+    let a =5;
+    let x = (5+5)*a;
+    return x;
+  }
+  document.getElementById("Bracket").innerHTML = "(5 + 5)*5 = " + Bracket();
+
+  // This is for Concatenate String (Text).
+
+  function Text(){
+    let text = "My name is ";
+    text += "Sagar.";
+    return text;
+  }
+  document.getElementById("Text").innerHTML = "Name = " + Text();
+
+
+  // Comparing two values for which one id greater than which.
+
+  
+  function Compare(){
+    let a =5;
+    let x = 7;
+    let b = a > 7;
+    return b;
+  }
+  document.getElementById("Compare").innerHTML = "5 > 7 = " + Compare();
+
+  // Comparing text here liikely A-Z.
+
+  function CompareText(){
+    let a = "A";
+    let b = "Z";
+    let c = "A" < "Z";
+    return c;
+  }
+  document.getElementById("CompareText").innerHTML = "Comparing Text A < Z = " + CompareText();
+
+
