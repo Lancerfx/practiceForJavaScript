@@ -200,3 +200,66 @@ document.getElementById("Dmulti").innerHTML = "5 ** 2 = "+ Dmulti();
   document.getElementById("CompareText").innerHTML = "Comparing Text A < Z = " + CompareText();
 
 
+  // Comparison Operators
+//Equals to Operator
+  function Equals(){
+    let x = 5;
+    let y = x == 8;
+    return y;
+
+  }
+  document.getElementById("Equals").innerHTML = "x = 5; is x == 8; =  "+ Equals();
+
+  //equals value or equals type 
+
+  function Value(){
+    x = 5;
+    y = x === "8";
+    return y;
+  }
+  document.getElementById("Value").innerHTML = "Equals value or Equals type of 5 is '8' = "+ Value();
+
+  // This is for Not Equals Value and also not equals or not equals type 
+
+  function NotEqual(){
+    let x = 5;
+    let y = x !== 8;
+    return y ;
+  }
+  document.getElementById("NotEqual").innerHTML = "Is x = 5 is not !== 8? = " + NotEqual();
+
+  // THis is for gerater or less values are asssigned in  a container
+
+  function GreaterThan(){
+    let x  = 5;
+    let y = 8;
+    let z = x > y;//In this contex this question asks that is x is greater than y?
+    return z;
+  }
+  document.getElementById("GreaterThan").innerHTML = "Is 5 greater than 8 = "+ GreaterThan();
+
+  // less than or Equalls to
+
+  function LessThanOrEquals(){
+    let x = 5;
+    let y = 4;
+    let z = x <= y;
+    return z;
+  }
+  document.getElementById("LessThanOrEquals").innerHTML = "Is 5 Less than or Equals to 4 = " + LessThanOrEquals();
+
+  // This is to Know that if the 15 years old kid can buy alchol or not
+
+  function Alchol(){
+    let amanAge= 15;
+    if(amanAge >= 18){
+      return "Yes,Congrulations you have Successfully bought a Alchol.";
+    }else{
+      return "No,You have to wait 3years to buy it.";
+    }
+  }
+  document.getElementById("Alchol").innerHTML = "The Kid age is 15 can he buy alchol? = " + Alchol();
+
+  
+
+
