@@ -340,3 +340,50 @@ if(Age>=0 && Age<= 12){
 }else{
   console.log("Congrulation you are in that 1% people who are wise.")
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// If else Level 2
+
+
+// 1️⃣ Largest of Three Numbers
+//Write a program to find the largest among three numbers.
+
+let a= 20;
+let b = 30;
+let c =40;
+if(a>=b && a>=c){
+  console.log(a," is greater than other numbers.")
+}else if(b>=a && b>=c){
+  console.log(b," is greater than other numbers.")
+}else{
+  console.log(c," is greater and largest among of all.")
+}
+
+
+//2️⃣ Check if a Number is a Multiple of Both 3 and 7
+
+for(let i =1; i<=100;i++){
+  if(i % 3 === 0 && i % 7 === 0){
+    console.log(i," is multiple of both 3 and 7.")
+  }else{
+    console.log(i," is not multiple of 3 and 7.")
+  }
+}
+
+
+//
