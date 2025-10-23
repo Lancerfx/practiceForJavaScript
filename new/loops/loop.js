@@ -386,4 +386,11 @@ for(let i =1; i<=100;i++){
 }
 
 
-//
+//Do while loop
+
+let loop = 5;
+
+do{
+  console.log(loop)
+  loop++
+}while(loop<8)
